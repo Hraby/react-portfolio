@@ -1,27 +1,21 @@
-import logo from './logo.svg';
+import Logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Contact from "./pages/contact"
+import Menu from './components/navbar';
+import Contact from "./sections/contact"
+import Home from "./sections/home";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <Router>
-              <div className="App">
-                  <Navbar/>
-                  <Switch>
-                      <Route path="/" exact component={Home} />
-                      <Route path="/pages/contact" component={Contact} />
-                  </Switch>
-              </div>
-          </Router>
-      </header>
+        <header className="App-header">
+            <div className="App-header-content">
+                <a>Michal Hrabal</a>
+                <Menu/>
+            </div>
+        </header>
+        <main>
+            <Home/>
+        </main>
     </div>
   );
-}
-
-function Home(){
-    return(<h1>Hello World</h1>)
 }
