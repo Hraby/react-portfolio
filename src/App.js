@@ -1,21 +1,16 @@
-import Logo from './logo.svg';
-import './App.css';
-import Menu from './components/navbar';
-import Contact from "./sections/contact"
-import Home from "./sections/home";
+import Home from "./pages/HomePage";
+import Carousel from "./pages/CarouselPage"
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 export default function App() {
-  return (
-    <div className="App">
-        <header className="App-header">
-            <div className="App-header-content">
-                <a>Michal Hrabal</a>
-                <Menu/>
+    return (
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route exact path="/" element={<Home />}/>
+                    <Route exact path="/carousel" element={<Carousel />}/>
+                </Routes>
             </div>
-        </header>
-        <main>
-            <Home/>
-        </main>
-    </div>
-  );
+        </Router>
+    );
 }

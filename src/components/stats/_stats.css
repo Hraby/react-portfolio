@@ -1,0 +1,44 @@
+.stats {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1100px;
+    height: 261px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: radial-gradient(100.06% 82.63% at 51.95% 17.43%, #348BFC 0%, #3241C7 100%);
+}
+
+.man {
+    position: absolute;
+    width: 318px;
+    height: 288px;
+    bottom: 0;
+    left: 70px;
+}
+
+.statsInfo{
+    padding-right: 70px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.statsInfo h1 span{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.statsInfo span{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

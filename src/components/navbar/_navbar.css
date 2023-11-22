@@ -1,0 +1,32 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 15px 0;
+}
+
+.App-header-content{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Menu a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.Menu ul{
+    display: flex;
+    gap: 15px;
+}
