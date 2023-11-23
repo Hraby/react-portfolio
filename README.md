@@ -1,5 +1,5 @@
 # Personal portfolio
-A personal portfolio based on react, designed to teach the basics of react.
+A personal portfolio built on react, which I built in order to learn the basics of react and do a school project.
 
 ## Prerequisites
 #### NodeJS
