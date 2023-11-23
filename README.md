@@ -3,7 +3,7 @@ A personal portfolio based on react, designed to teach the basics of react.
 
 ## Prerequisites
 #### NodeJS
-Refer to https://nodejs.org/en/ to install nodejs
+Refer to [nodejs website](https://nodejs.org/en/) to install nodejs
 #### Node package manager (npm)
 Comes bundled with node
 
