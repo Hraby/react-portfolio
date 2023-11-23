@@ -1,0 +1,56 @@
+.footer{
+    width: 1500px;
+    height: 200px;
+    border-radius: 100px 100px 0px 0px;
+    background: radial-gradient(100.06% 82.63% at 51.95% 17.43%, #348BFC 0%, #3241C7 100%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .leftContent{
+    padding-top: 50px;
+}
+
+.footer .leftContent span{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer .leftContent p{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .rightContent{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .rightContent span{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer .rightContent a{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: underline;
+    cursor: pointer;
+}

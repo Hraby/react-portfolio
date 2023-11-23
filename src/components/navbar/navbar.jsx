@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "./_navbar.css"
+import "./navbar.css"
 
 export default function Menu() {
     return (
@@ -10,8 +10,8 @@ export default function Menu() {
                 <ul>
                     <li><Link to="/">Projekty</Link></li>
                     <li><Link to="/">O mně</Link></li>
-                    <li><Link to="/carousel">Carousel</Link></li>
                     <li><Link to="/">Kontakt</Link></li>
+                    <li><Link to="/carousel"><s>Carousel</s></Link></li>
                 </ul>
             </nav>
         </div>

@@ -1,7 +1,7 @@
 // TODO - In progress
 import { useState } from 'react';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import './_carousel.css';
+import { CSSTransition } from 'react-transition-group';
+import './carousel.css';
 
 const slides = [
     'image1.jpeg',

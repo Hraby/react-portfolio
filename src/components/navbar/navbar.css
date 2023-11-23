@@ -16,6 +16,10 @@
     padding: 15px 0;
 }
 
+.App-header-content a{
+    color: black;
+}
+
 .App-link {
     color: #61dafb;
 }

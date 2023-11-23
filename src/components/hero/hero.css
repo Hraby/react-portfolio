@@ -1,41 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: Manrope;
-}
-
-.App {
-    text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
-}
-
 .home{
     max-width: 1100px;
     width: 100%;
@@ -44,7 +8,7 @@ header{
     align-items: center;
 }
 
-.leftContent{
+.home .leftContent{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,13 +22,13 @@ header{
     line-height: normal;
 }
 
-.rightContent{
+.home .rightContent{
     display: flex;
     flex-direction: column;
     width: 400px;
 }
 
-.rightContent p{
+.home .rightContent p{
     text-align: left;
 }
 
@@ -76,6 +40,7 @@ header{
     background: #348BFC;
     box-shadow: 0px 0px 11px 0px #FFF inset;
     border: none;
+    margin-top: 25px;
 }
 
 .kontaktBtn a{
