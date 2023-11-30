@@ -11,9 +11,10 @@ export default function Menu() {
                     <li><Link to="/">Projekty</Link></li>
                     <li><Link to="/">O mně</Link></li>
                     <li><Link to="/">Kontakt</Link></li>
-                    <li><Link to="/carousel"><s>Carousel</s></Link></li>
+                    <li><Link to="/carousel">Carousel</Link></li>
                 </ul>
             </nav>
         </div>
     );
 }
+

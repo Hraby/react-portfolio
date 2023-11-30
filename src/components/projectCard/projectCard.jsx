@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Arrow from "../../assets/greenArrow.svg"
 
 export default function projectCard(props){
-    const {img, name, desc} = props;
+    const {img, name, desc, link} = props;
 
     return(
         <div className="projectCard">
@@ -12,7 +12,7 @@ export default function projectCard(props){
             <h2>{name}</h2>
             <div className="projectCard-info">
                 <p>{desc}</p>
-                <Link className="projectBtn" to="/carousel"><img src={Arrow}></img></Link>
+                <Link className="projectBtn" to={link}><img src={Arrow}></img></Link>
             </div>
         </div>
     )

@@ -26,6 +26,11 @@
     padding-right: 70px;
 }
 
+.projectsStats, .yearsStats, .visitorsStats{
+    display: flex;
+    flex-direction: column;
+}
+
 .statsInfo h1 span{
     color: #FFF;
     font-family: Manrope;
@@ -42,4 +47,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
 }
+
