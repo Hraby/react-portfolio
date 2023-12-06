@@ -10,7 +10,7 @@ export default function App() {
                 <Routes>
                     <Route exact path="/" element={<Home />}/>
                     <Route exact path="/carousel" element={<Carousel />}/>
-                    <Route path="/project/:name" element={<ProjectDetail/>} />
+                    <Route path="/projects/:name" element={<ProjectDetail/>} />
                 </Routes>
             </div>
         </Router>
