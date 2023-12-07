@@ -1,5 +1,6 @@
 import Menu from "../components/navbar/navbar"
 import Footer from "../components/footer/footer"
+import Contact from "../components/contact/contact"
 import ProjectDetail from "../components/projectDetail/projectDetail"
 import { useParams } from 'react-router-dom'
 import { useEffect } from "react"
@@ -19,7 +20,12 @@ export default function ProjectDetailPage(){
                 <Menu/>
             </header>
             <main>
-                <ProjectDetail name={project.name} shortDescription={project.shortDescription} description={project.description} img={project.img} />
+                <section className="section">
+                    <ProjectDetail name={project.name} shortDescription={project.shortDescription} description={project.description} img={project.img} />
+                </section>
+                <section className="section">
+                    <Contact/>
+                </section>
             </main>
             <footer>
                 <Footer/>

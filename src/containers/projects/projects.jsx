@@ -5,7 +5,7 @@ import {projects} from "../../data"
 
 export default function Projects(){
     return(
-        <div className="projects">
+        <div className="projects" id="projects">
             <h2>Jak to může <span className="gradient">vypadat</span></h2>
             <div className="projectsCard">
                 {projects.map((project) => (

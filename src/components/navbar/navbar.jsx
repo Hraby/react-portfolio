@@ -8,7 +8,7 @@ export default function Menu() {
             <a><Link to="/">Michal Hrabal</Link></a>
             <nav className="Menu">
                 <ul>
-                    <li><Link to="/">Projekty</Link></li>
+                    <li><Link to="/#projects">Projekty</Link></li>
                     <li><Link to="/">O mně</Link></li>
                     <li><Link to="/">Kontakt</Link></li>
                 </ul>
