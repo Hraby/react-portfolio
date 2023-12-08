@@ -1,29 +1,18 @@
-.projects{
+.faq{
     max-width: 1100px;
     width: 100%;
 }
 
-
-.projectsCard{
-    max-width: 1100px;
-    gap: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.projects h2{
+.faq h2{
     color: #000;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 100px;
 }
 
-
-.projects .gradient{
-    background: linear-gradient(90deg, #0D9900 61.33%, #096400 100%);
+.faq .faqGradient{
+    background: linear-gradient(90deg, #348BFC 49.78%, #3241C7 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

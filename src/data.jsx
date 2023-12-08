@@ -16,3 +16,20 @@ export const projects = [
         shortDescription: 'Lorem ipsum dolor sit amet, consectetuer 2',
     },
 ];
+
+export const faq = {
+    rows: [
+        {
+            title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+            content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Nulla pulvinar eleifend sem. Pellentesque pretium',
+        },
+        {
+            title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+            content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Nulla pulvinar eleifend sem. Pellentesque pretium',
+        },
+        {
+            title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+            content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Nulla pulvinar eleifend sem. Pellentesque pretium',
+        }
+    ]
+};
