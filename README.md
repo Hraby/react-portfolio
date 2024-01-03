@@ -24,3 +24,6 @@ If the port is empty, the application will run on [localhost:3000](http://localh
 
 ## Resources
 <b>ReactJS</b> : Refer to [reactjs website](https://reactjs.org/) to understand the concepts of ReactJS
+
+## Homepage web design
+![alt text](https://github.com/Hraby/react-portfolio/blob/master/portfolio_navrh.png)
