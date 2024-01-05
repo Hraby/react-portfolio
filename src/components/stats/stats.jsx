@@ -1,10 +1,21 @@
 import React from "react"
 import "./stats.css"
 import CountUP from "react-countup"
+import {motion, useAnimation} from "framer-motion"
 
 export default function Stats(){
+    const controls = useAnimation();
+
+    React.useEffect(() => {
+        controls.start({ scale: 1, opacity: 1, y: 0 });
+    });
     return(
-        <div className="stats">
+        <motion.div
+            className="stats"
+            initial={{ scale: 0.8, opacity: 0, y: 50 }}
+            animate={controls}
+            transition={{ duration: 0.25, delay: 0.25 }}
+        >
             <img className="man" src="/3dman.png" alt=""/>
             <div className="statsInfo">
                 <div className="yearsStats">
@@ -20,6 +31,6 @@ export default function Stats(){
                     <span>spokojených návštěvníků<br/> denně</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
