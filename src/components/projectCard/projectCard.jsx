@@ -8,11 +8,13 @@ export default function projectCard(props){
 
     return(
         <div className="projectCard">
-            <img className="projectImg" src={`/${img}`} alt=""/>
-            <h2>{name}</h2>
-            <div className="projectCard-info">
-                <p>{desc}</p>
-                <Link className="projectBtn" to={link}><img src={Arrow} alt=""/></Link>
+            <div className="projectBg">
+                <img className="projectImg" src={`/${img}`} alt=""/>
+                <h2>{name}</h2>
+                <div className="projectCard-info">
+                    <p>{desc}</p>
+                    <Link className="projectBtn" to={link}><img src={Arrow} alt=""/></Link>
+                </div>
             </div>
         </div>
     )
