@@ -1,18 +1,13 @@
 import React from "react"
-import {motion, useAnimation} from "framer-motion"
+import {motion} from "framer-motion"
 import "./hero.css"
 
 export default function Hero(){
-    const controls = useAnimation();
-
-    React.useEffect(() => {
-        controls.start({ scale: 1, opacity: 1, y: 0 });
-    }, []);
     return(
         <motion.div
             className="home"
             initial={{ scale: 0.8, opacity: 0, y: 50 }}
-            animate={controls}
+            animate={{ scale: 1, opacity: 1, y: 0 }}
             transition={{ duration: 0.25 }}
         >
             <div className="leftContent">

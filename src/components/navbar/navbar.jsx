@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./navbar.css"
 import {motion, useAnimation} from "framer-motion";
+import { HashLink } from 'react-router-hash-link';
+
 
 export default function Menu() {
     const controls = useAnimation();
@@ -19,9 +21,9 @@ export default function Menu() {
             <a><Link to="/">Michal Hrabal</Link></a>
             <nav className="Menu">
                 <ul>
-                    <li><Link to="/#projects">Projekty</Link></li>
-                    <li><Link to="/">O mně</Link></li>
-                    <li><Link to="/">Kontakt</Link></li>
+                    <li><HashLink smooth to="/#projects">Projekty</HashLink></li>
+                    <li><HashLink smooth to="/#about-me">O mně</HashLink></li>
+                    <li><HashLink smooth to="/#contact">Kontakt</HashLink></li>
                 </ul>
             </nav>
         </motion.div>

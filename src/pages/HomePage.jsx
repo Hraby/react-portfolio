@@ -25,13 +25,13 @@ export default function HomePage() {
                 <div className="section">
                     <Stats/>
                 </div>
-                <div className="section">
+                <div className="section" id="projects">
                     <Projects/>
                 </div>
                 <div className="section">
                     <Faq/>
                 </div>
-                <div className="section">
+                <div className="section" id="contact">
                     <Contact/>
                 </div>
             </main>
