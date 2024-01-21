@@ -6,6 +6,10 @@
     gap: 30px;
 }
 
+.projectDetail a{
+    color: black;
+}
+
 .projectDetailInfo{
     text-align: center;
 }
@@ -49,4 +53,16 @@
     height: 90%;
     align-self: flex-end;
     border-radius: 25px 25px 0 0;
+}
+
+.projectDetailTech{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectDetailTech img{
+    max-width: 600px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
 }

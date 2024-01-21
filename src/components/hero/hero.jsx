@@ -9,6 +9,7 @@ export default function Hero(){
             initial={{ scale: 0.8, opacity: 0, y: 50 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             transition={{ duration: 0.25 }}
+            viewport={{once: false}}
         >
             <div className="leftContent">
                 <div>
@@ -20,7 +21,7 @@ export default function Hero(){
             <div className="rightContent">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl. Nulla pulvinar eleifend sem. Pellentesque pretium</p>
                 <button className="kontaktBtn">
-                    <a href="/">Kontakt</a>
+                    <a href="/#contact">Kontakt</a>
                 </button>
             </div>
         </motion.div>

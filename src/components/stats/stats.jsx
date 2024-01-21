@@ -15,6 +15,7 @@ export default function Stats(){
             initial={{ scale: 0.8, opacity: 0, y: 50 }}
             animate={controls}
             transition={{ duration: 0.25, delay: 0.25 }}
+            viewport={{once: false}}
         >
             <img className="man" src="/3dman.png" alt=""/>
             <div className="statsInfo">

@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css"
-import {motion} from "framer-motion";
 
 export default function Footer() {
     return (
@@ -11,8 +10,8 @@ export default function Footer() {
             </div>
             <div className="rightContent">
                 <span>Kontakt</span>
-                <a>info@michalhrabal.cz</a>
-                <a>Linkedin</a>
+                <a href="#">info@michalhrabal.cz</a>
+                <a href="#">Linkedin</a>
             </div>
         </div>
     );

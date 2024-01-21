@@ -1,7 +1,7 @@
 import Home from "./pages/HomePage";
-import Carousel from "./pages/CarouselPage"
 import ProjectDetail from "./pages/ProjectDetailPage"
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import AboutMePage from "./pages/AboutMePage";
 
 export default function App() {
     return (
@@ -9,8 +9,8 @@ export default function App() {
             <div className="App">
                 <Routes>
                     <Route exact path="/" element={<Home />}/>
-                    <Route exact path="/carousel" element={<Carousel />}/>
                     <Route path="/projects/:name" element={<ProjectDetail/>} />
+                    <Route path="/about-me" element={<AboutMePage/>} />
                 </Routes>
             </div>
         </Router>
